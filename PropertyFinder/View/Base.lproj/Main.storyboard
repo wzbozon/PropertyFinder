@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NzJ-QC-jKf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PropertyFinder-->
+        <scene sceneID="byA-W4-DOm">
+            <objects>
+                <tableViewController id="S0o-al-vXf" customClass="PFRealtyTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="110" sectionHeaderHeight="28" sectionFooterHeight="28" id="OwZ-6z-MiX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PFRealtyCellIdentifier" rowHeight="110" id="6RM-eK-hz1" customClass="PFRealtyCell">
+                                <rect key="frame" x="0.0" y="28" width="375" height="110"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6RM-eK-hz1" id="JAB-to-xL3">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="109.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Efk-SM-AAz">
+                                            <rect key="frame" x="8" y="19.5" width="105" height="70.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="70" id="GK1-0t-D2W"/>
+                                                <constraint firstAttribute="width" secondItem="Efk-SM-AAz" secondAttribute="height" multiplier="3:2" id="LT2-ZU-8X2"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amazing 3 BR Available with View of Water" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXX-kR-iQy">
+                                            <rect key="frame" x="121" y="16" width="246" height="17"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                            <color key="textColor" red="0.0" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marina Pinnacle, Dubai Marina, Dubai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqr-0S-HuN">
+                                            <rect key="frame" x="121" y="36" width="246" height="14.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apartment, 911 sqft" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03c-a5-D24">
+                                            <rect key="frame" x="120.5" y="78.5" width="246.5" height="14.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120,000 AED yearly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C11-zi-DrJ">
+                                            <rect key="frame" x="120.5" y="58.5" width="246.5" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.99607843139999996" green="0.21960784310000001" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="C11-zi-DrJ" firstAttribute="top" secondItem="hqr-0S-HuN" secondAttribute="bottom" constant="8" id="5db-Z5-Xxk"/>
+                                        <constraint firstItem="AXX-kR-iQy" firstAttribute="leading" secondItem="Efk-SM-AAz" secondAttribute="trailing" constant="8" id="77Z-zl-gv7"/>
+                                        <constraint firstItem="03c-a5-D24" firstAttribute="trailing" secondItem="C11-zi-DrJ" secondAttribute="trailing" id="FQR-hp-46x"/>
+                                        <constraint firstItem="03c-a5-D24" firstAttribute="top" secondItem="C11-zi-DrJ" secondAttribute="bottom" constant="3" id="HHU-1c-8Oi"/>
+                                        <constraint firstItem="Efk-SM-AAz" firstAttribute="centerY" secondItem="JAB-to-xL3" secondAttribute="centerY" id="Jgd-ff-rqU"/>
+                                        <constraint firstItem="hqr-0S-HuN" firstAttribute="leading" secondItem="AXX-kR-iQy" secondAttribute="leading" id="JiL-BV-vfI"/>
+                                        <constraint firstAttribute="trailing" secondItem="AXX-kR-iQy" secondAttribute="trailing" constant="8" id="Mym-tp-cBt"/>
+                                        <constraint firstItem="hqr-0S-HuN" firstAttribute="trailing" secondItem="AXX-kR-iQy" secondAttribute="trailing" id="ZAT-H3-Ck5"/>
+                                        <constraint firstItem="hqr-0S-HuN" firstAttribute="top" secondItem="AXX-kR-iQy" secondAttribute="bottom" constant="3" id="fgx-3d-lNh"/>
+                                        <constraint firstItem="C11-zi-DrJ" firstAttribute="trailing" secondItem="hqr-0S-HuN" secondAttribute="trailing" id="kWw-3L-qlr"/>
+                                        <constraint firstItem="AXX-kR-iQy" firstAttribute="top" secondItem="JAB-to-xL3" secondAttribute="topMargin" constant="8" id="mmT-Rq-njR"/>
+                                        <constraint firstItem="03c-a5-D24" firstAttribute="leading" secondItem="C11-zi-DrJ" secondAttribute="leading" id="nQf-UA-ikn"/>
+                                        <constraint firstItem="Efk-SM-AAz" firstAttribute="leading" secondItem="JAB-to-xL3" secondAttribute="leading" constant="8" id="oIW-Tn-XYu"/>
+                                        <constraint firstItem="C11-zi-DrJ" firstAttribute="leading" secondItem="hqr-0S-HuN" secondAttribute="leading" id="vU5-aS-1N4"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="addressLabel" destination="hqr-0S-HuN" id="Qzo-Ll-2Us"/>
+                                    <outlet property="priceLabel" destination="C11-zi-DrJ" id="UhI-qI-05f"/>
+                                    <outlet property="thumbnailImageView" destination="Efk-SM-AAz" id="7gv-Pk-Tcc"/>
+                                    <outlet property="titleLabel" destination="AXX-kR-iQy" id="iyZ-mI-Mgy"/>
+                                    <outlet property="typeLabel" destination="03c-a5-D24" id="CS9-2U-Tp2"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="S0o-al-vXf" id="2bi-p6-UlW"/>
+                            <outlet property="delegate" destination="S0o-al-vXf" id="ihi-uN-grC"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="PropertyFinder" id="kam-Il-VdP"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GEc-7E-56v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="-84.107946026986511"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9ca-Yb-NOY">
+            <objects>
+                <navigationController id="NzJ-QC-jKf" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mhX-us-9ph">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="S0o-al-vXf" kind="relationship" relationship="rootViewController" id="W4E-wb-E8v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P0D-eR-Zp0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-753" y="-84"/>
+        </scene>
+    </scenes>
+</document>
