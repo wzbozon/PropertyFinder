@@ -26,6 +26,8 @@
 		920B6D761F95564B0045E947 /* PFLoadingFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B6D751F95564B0045E947 /* PFLoadingFooterView.m */; };
 		920B6D781F9556550045E947 /* PFLoadingFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920B6D771F9556550045E947 /* PFLoadingFooterView.xib */; };
 		F1609BCA7EDCFF09B433F06E /* Pods_PropertyFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EC9A1BFE98B5F660E1DF37 /* Pods_PropertyFinderTests.framework */; };
+		F8EEAE4B1FD553AE0054A36F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F8EEAE491FD553AD0054A36F /* LICENSE */; };
+		F8EEAE4C1FD553AE0054A36F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8EEAE4A1FD553AE0054A36F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +52,7 @@
 		20EC9A1BFE98B5F660E1DF37 /* Pods_PropertyFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PropertyFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6275897E01A796DFE7B1C355 /* Pods-PropertyFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PropertyFinderUITests/Pods-PropertyFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		912C8F9263882828FBF8DF25 /* Pods-PropertyFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PropertyFinderTests/Pods-PropertyFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
-		920B6D1A1F95048C0045E947 /* PropertyFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		920B6D1A1F95048C0045E947 /* DKPropertyFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKPropertyFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		920B6D1D1F95048C0045E947 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		920B6D1E1F95048C0045E947 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		920B6D241F95048C0045E947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,6 +88,8 @@
 		BAC686F6E91CF315C56A6C1E /* Pods-PropertyFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-PropertyFinder/Pods-PropertyFinder.release.xcconfig"; sourceTree = "<group>"; };
 		CF08C9D8ECFD9204AF454A94 /* Pods-PropertyFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PropertyFinderTests/Pods-PropertyFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		D8E486A60A83228074652281 /* Pods-PropertyFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PropertyFinder/Pods-PropertyFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		F8EEAE491FD553AD0054A36F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		F8EEAE4A1FD553AE0054A36F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +135,7 @@
 		920B6D1B1F95048C0045E947 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				920B6D1A1F95048C0045E947 /* PropertyFinder.app */,
+				920B6D1A1F95048C0045E947 /* DKPropertyFinder.app */,
 				920B6D321F95048C0045E947 /* PropertyFinderTests.xctest */,
 				920B6D3D1F95048C0045E947 /* PropertyFinderUITests.xctest */,
 			);
@@ -141,6 +145,7 @@
 		920B6D1C1F95048C0045E947 /* PropertyFinder */ = {
 			isa = PBXGroup;
 			children = (
+				F8EEAE481FD5539A0054A36F /* Metadata */,
 				920B6D641F950A4B0045E947 /* Service */,
 				920B6D621F95070C0045E947 /* Model */,
 				920B6D611F9507050045E947 /* ViewModel */,
@@ -277,6 +282,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F8EEAE481FD5539A0054A36F /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				F8EEAE491FD553AD0054A36F /* LICENSE */,
+				F8EEAE4A1FD553AE0054A36F /* README.md */,
+			);
+			path = Metadata;
+			sourceTree = "<group>";
+		};
 		F9022BBE56B9721C5A838962 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,9 +307,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		920B6D191F95048C0045E947 /* PropertyFinder */ = {
+		920B6D191F95048C0045E947 /* DKPropertyFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 920B6D461F95048C0045E947 /* Build configuration list for PBXNativeTarget "PropertyFinder" */;
+			buildConfigurationList = 920B6D461F95048C0045E947 /* Build configuration list for PBXNativeTarget "DKPropertyFinder" */;
 			buildPhases = (
 				E2DA7CB8F7795A975F03E712 /* [CP] Check Pods Manifest.lock */,
 				920B6D161F95048C0045E947 /* Sources */,
@@ -308,9 +322,9 @@
 			);
 			dependencies = (
 			);
-			name = PropertyFinder;
+			name = DKPropertyFinder;
 			productName = PropertyFinder;
-			productReference = 920B6D1A1F95048C0045E947 /* PropertyFinder.app */;
+			productReference = 920B6D1A1F95048C0045E947 /* DKPropertyFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 		920B6D311F95048C0045E947 /* PropertyFinderTests */ = {
@@ -393,7 +407,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				920B6D191F95048C0045E947 /* PropertyFinder */,
+				920B6D191F95048C0045E947 /* DKPropertyFinder */,
 				920B6D311F95048C0045E947 /* PropertyFinderTests */,
 				920B6D3C1F95048C0045E947 /* PropertyFinderUITests */,
 			);
@@ -405,10 +419,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8EEAE4C1FD553AE0054A36F /* README.md in Resources */,
 				920B6D2A1F95048C0045E947 /* LaunchScreen.storyboard in Resources */,
 				920B6D271F95048C0045E947 /* Assets.xcassets in Resources */,
 				920B6D781F9556550045E947 /* PFLoadingFooterView.xib in Resources */,
 				920B6D251F95048C0045E947 /* Main.storyboard in Resources */,
+				F8EEAE4B1FD553AE0054A36F /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,12 +673,12 @@
 /* Begin PBXTargetDependency section */
 		920B6D341F95048C0045E947 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 920B6D191F95048C0045E947 /* PropertyFinder */;
+			target = 920B6D191F95048C0045E947 /* DKPropertyFinder */;
 			targetProxy = 920B6D331F95048C0045E947 /* PBXContainerItemProxy */;
 		};
 		920B6D3F1F95048C0045E947 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 920B6D191F95048C0045E947 /* PropertyFinder */;
+			target = 920B6D191F95048C0045E947 /* DKPropertyFinder */;
 			targetProxy = 920B6D3E1F95048C0045E947 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -895,7 +911,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		920B6D461F95048C0045E947 /* Build configuration list for PBXNativeTarget "PropertyFinder" */ = {
+		920B6D461F95048C0045E947 /* Build configuration list for PBXNativeTarget "DKPropertyFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				920B6D471F95048C0045E947 /* Debug */,
