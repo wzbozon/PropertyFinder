@@ -24,7 +24,7 @@ To run the project, clone the repo, and run `pod install` from the root director
 
 ## Requirements
 
-Tested on iOS 10 and higher.
+Tested on iOS 11, but should work on earlier versions.
 
 ## Author
 
@@ -32,4 +32,4 @@ Dennis Kutlubaev, kutlubaev.denis@gmail.com
 
 ## License
 
-DKCircularSlider is available under the MIT license. See the LICENSE file for more info.
+DKPropertyFinder is available under the MIT license. See the LICENSE file for more info.
