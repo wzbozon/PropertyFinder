@@ -2,7 +2,8 @@
 
 [![CI Status](http://img.shields.io/travis/wzbozon/DKPropertyFinder.svg?style=flat)](https://travis-ci.org/wzbozon/DKPropertyFinder)
 
-Sample iOS app with paging in UITableView, REST API, ReactiveCocoa and asynchronous image loading
+Sample iOS app with MVVM + ReactiveCocoa architecture.
+It has a paging in UITableView, uses REST API and asynchronously loads images.
 
 It uses REST API of property service https://www.propertyfinder.ae/
 This app was developed in about 6 hours as a test.
